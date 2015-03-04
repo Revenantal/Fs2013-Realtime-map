@@ -1,0 +1,133 @@
+﻿body {
+    background-color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#header{
+    text-align:center;
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#FFF;
+    border:5px outset green;
+    margin-bottom:10px;
+
+}
+
+#playerList{
+    width: calc(20% - 70px); 
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top:auto;
+    background-color:#FFF;
+    padding:20px;
+    border:5px outset green;
+}
+    #playerList h2{
+        text-align:center;
+    }
+    #playerList table{
+        width:100%;
+        border-collapse: collapse;
+    }
+        #playerList table th{
+            font-size: 1.1em;
+            text-align: center;
+            width:20%;
+            border: 1px solid #30533C;
+            background-color: #006B24;
+            color:white;
+            height:40px;
+        }
+        #playerList table td{
+            text-align: center;
+            border: 1px solid #30533C;
+            background-color: #FFF;
+            height:35px;
+        }
+        #playerList table tr.alt td{
+                color: #000000;
+                background-color: #EAF2D3;
+        }
+        #playerList table td p.centeredBadge{
+            display:block;
+        }
+
+#mapDisplay{
+    width: calc(60% - 20px); 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    float:left;
+    text-align:center;
+    background-color:#FFF;
+    border:5px outset green;
+    padding: 5px;
+    padding-bottom:40px;
+}
+    #mapDisplay h2{
+        text-align:center;
+    }
+
+    #mapDisplay #map{
+        position: relative; 
+        left: 0; 
+        top: 0;  
+        display: inline-block;
+    }
+
+#mapLegend{
+    width: calc(20% - 70px); 
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:#FFF;
+    padding:20px;
+    border:5px outset green;
+    padding-bottom:20px;
+}
+    #mapLegend h2{
+        text-align:center;
+    }
+    #mapLegend table{
+        width:100%;
+        border-collapse: collapse;
+    }
+        #mapLegend table th{
+            font-size: 1.1em;
+            text-align: center;
+            border: 1px solid #30533C;
+            background-color: #006B24;
+            color:white;
+            height:40px;
+        }
+       #mapLegend table td{
+            text-align: center;
+            border: 1px solid #30533C;
+            height:35px;
+            background-color: #FFF;
+        }
+        #mapLegend table tr.alt td{
+            color: #000000;
+            background-color: #EAF2D3;
+        }
+
+footer{
+    margin-left:auto;
+    margin-right:auto;
+    width: 40%;
+    clear:both;
+    text-align:center;
+    background-color:#FFF;
+    padding:25px;
+    border:5px outset green;
+}
+    footer p{
+        padding:3px;
+        margin:0px;
+        font-size:10px;
+    }

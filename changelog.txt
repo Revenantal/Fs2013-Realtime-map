@@ -1,0 +1,35 @@
+﻿++------------------------------------------------------------+
+|                                                             |
+|        FARMING SIMULATOR 2013 SERVER MAP CHANGE LOG         |								
+|                                                             |
+|-+---------------------------------------------------------+-+
+|-|                                                         |-|
+|-|                                                         |-|
+|-|  	- Powered By GIANTS Software                        |-|
+|-|     - Developed by Revenantal                           |-|
+|-|     - Last Update: Monday September 15th, 2014          |-|
+|-|     - Version: 1.12                                     |-|
+|-|                                                         |-|
+|-|                                                         |-|
+|-+---------------------------------------------------------+-|
+++-----------------------------------------------------------++
+
+15/09/2014 - Corrective Naming (Vesrion 1.12)
+- Revised some HTML for HTML5 validation.
+- Moved scripts to a new folder called "scripts" (extreme, I know!).
+- Moved CSS to the CSS folder.
+- Laid the base code for player login/logout notifications. (No visual change yet!).
+- Claned up the code base.
+- Fixed a naming bug regarding the legend.
+
+08/09/2014 - Missing Vehicles! (Version 1.11)
+- Added 2 icons for missing vehicle types.
+- Added 2 new records in the "FRIENDLY_LEGEND_NAMES" array.
+
+08/09/2014 - Makin' it look purty! (Version 1.1)
+- Added a change log.
+- Added a background.
+- Added borders and backgrounds to areas.
+- Removed time for a bit till I get it fixed.
+- Changed text on legend from "enabled" to "show".
+

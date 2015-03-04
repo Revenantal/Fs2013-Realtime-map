@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Server name="Example XML" mapName="XML Example" money="1123545">
+	<Slots capacity="8" numUsed="2">
+		<Player isAdmin="true" uptime="124" isUsed="true">Example Admin</Player>
+		<Player isAdmin="false" uptime="45" isUsed="true">Example Player</Player>
+		<Player isUsed="false"></Player>
+		<Player isUsed="false"></Player>
+		<Player isUsed="false"></Player>
+		<Player isUsed="false"></Player>
+		<Player isUsed="false"></Player>
+		<Player isUsed="false"></Player>
+	</Slots>
+	<Vehicles>
+		<Vehicle name="Example Vehicle" machineType="tractors" x="0" z="0"></Vehicle>
+		<Vehicle name="Example Vehicle 2" machineType="baling" x="60" z="24"></Vehicle>
+	</Vehicles>
+</Server>

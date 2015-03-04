@@ -1,0 +1,73 @@
+<!--
+    Farming Simulator 2013 Map
+    Version: 1.12
+    Release date: Monday, September 15th, 2014
+    Developed by: Revenantal
+    Powered by: GIANTS Software
+-->
+
+<head>
+    <title>Example Server Stats</title>
+    <link href="css/FS2013.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div id="header">
+        <h1>Example Junky Server Stats</h1>
+        <!--<p>Server time: <span id="webStatsServerTime">Dynamic content from JS</span><br /><small style="font-size: 8px;">Server time does not update frequently.</small></p>-->
+    </div>
+
+    <div id="content">
+
+        <div id="playerList">
+            <h2>Information</h2>
+            <p style="text-align:center">
+                <b>Description:</b><br />Hello!<br />Welcome to Example's real time server map! This screen will provide you with a bunch of information regarding the server. Even better, it updates automatically! So kick back, relax, and watch the farm grow!
+            </p>
+            <p style="text-align:center"><b>Wealth:</b><br /><span id="webStatsMoney"><!-- Dynamic content from JS --></span></p>
+            <p style="text-align:center"><b>Current Map:</b><br /><span id="webStatsMapName"><!-- Dynamic content from JS --></span></p>
+            <p style="text-align:center"><b>Mod Pack:</b><br /><a href="https://mega.co.nz/#!D4tHlLqa!0ECS2Z2G5R1ivfZISLUezz54btUF7uW_hdaCb78uMlY">Mirror 1 - MEGA</a><br /><a href="/downloads/fs2013/farmall_junky_Mod_Pack.zip">Mirror 2 - Local</a></p>
+            <p style="text-align:center">
+                <b>Players currently online:</b>
+            </p>
+            <table id="webStatsPlayers">
+                <caption style="caption-side:bottom"><span id="webStatsPlayersOnline"><!-- Dynamic content from JS --></span> / <span id="webStatsPlayersAllowed"><!-- Dynamic content from JS --></span> players online</caption>
+                <tr>
+                    <th style="width:30%;"><b>Name</b></th>
+                    <th><b>Play Time</b></th>
+                    <th style="width:10%"><b>Role</b></th>
+                </tr>
+                <!-- Dynamic content from JS -->
+            </table>
+        </div>
+
+        <div id="mapDisplay">
+            <h2>Map</h2>
+            <div id="map">
+                <span id="webStatsMap"><!-- Dynamic content from JS --></span>
+                <span id="webStatsVehicles"><!-- Dynamic content from JS --></span>
+            </div>
+        </div>
+
+        <div id="mapLegend">
+            <h2>Legend</h2>
+            <table id="mapLegendTable">
+                <tr>
+                    <th style="width:20%;"><b>Show</b></th>
+                    <th><b>Machine Type</b></th>
+                    <th style="width:15%"><b>Icon</b></th>
+                </tr>
+                <!-- Dynamic content from JS -->
+            </table>
+        </div>
+    </div>
+    <footer>
+        <p>Powered By <a href="http://www.giants-software.com/">GIANTS Software</a> | Developed By Revenantal | <a href="http://steamcommunity.com/groups/Example" target="_blank">Farmall Junky Steam Group</a></p>
+        <p>Version 1.12 | <a href="changelog.txt">Change log</a></p>
+    </footer>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/webStats.js"></script>
+    <script type="text/javascript">loadWebStats();</script>
+</body>
